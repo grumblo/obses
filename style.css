@@ -1,0 +1,26 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #0bbc17; /* Set your desired color */
+  margin:auto;
+  transition: transform 1s ease; /* Smooth rotation */
+  background-image:url(nom.jpg);
+  background-size: cover;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000000; /* Set text color */
+  font-size: 30px; /* Set font size */
+  transform-origin: 50% 50%; /* Rotate around center */
+  font-family: virbur;
+}
